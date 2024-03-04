@@ -35,3 +35,34 @@ Este algoritmo permite que un robot en Gazebo se mueva hacia una meta utilizando
 
 [astar_gazebo.webm](https://github.com/fervh/GAZEBO-PLANIFICATION/assets/55854056/445b4b23-e17b-43ac-8b31-c49b433a8688)
 
+### Funcionalidades
+
+- Carga un laberinto desde un archivo CSV que representa el entorno.
+- Implementa el algoritmo A* para encontrar la ruta óptima desde el punto de inicio hasta la meta.
+- Controla el robot en Gazebo para que siga la ruta óptima generada por el algoritmo A*.
+- Muestra por consola la casilla actual y la siguiente en todo momento para comprobar el funcionamiento del algoritmo.
+
+### Pros:
+
+- Garantiza la optimización de la ruta.
+- Garantiza que el robot alcance la meta.
+
+### Cons:
+
+- Requiere un mapa del entorno.
+
+## Algoritmo Bug2
+El algoritmo Bug 2 es un algoritmo de navegación para robots móviles diseñado para encontrar un camino alrededor de obstáculos para alcanzar una posición objetivo en un entorno desconocido.
+
+
+
+
+### Pros:
+
+- Es un algoritmo simple y eficiente para la navegación de robots móviles.
+- No requiere un mapa del entorno.
+
+### Cons:
+
+- No garantiza la optimización de la ruta.
+- No garantiza que el robot alcance la meta.
