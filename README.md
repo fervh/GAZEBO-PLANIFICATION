@@ -51,18 +51,19 @@ Este algoritmo permite que un robot en Gazebo se mueva hacia una meta utilizando
 
 - Requiere un mapa del entorno.
 
-## Algoritmo Bug2
-El algoritmo Bug 2 es un algoritmo de navegación para robots móviles diseñado para encontrar un camino alrededor de obstáculos para alcanzar una posición objetivo en un entorno desconocido.
+## Algoritmo Wall follower
+El algoritmo  Wall follower es un algoritmo de navegación para robots móviles diseñado para encontrar un camino bordeando una pared del entorno para alcanzar una posición objetivo en un entorno desconocido.
 
+[wall_follower.webm](https://github.com/fervh/GAZEBO-PLANIFICATION/assets/55854056/fa628352-84a3-4081-9ba6-d3690870909e)
 
 
 
 ### Pros:
 
-- Es un algoritmo simple y eficiente para la navegación de robots móviles.
-- No requiere un mapa del entorno.
+- Simple
+- No requiere conocimiento previo del entorno
+
 
 ### Cons:
 
-- No garantiza la optimización de la ruta.
-- No garantiza que el robot alcance la meta.
+- No es el camino más corto (no es óptimo)
