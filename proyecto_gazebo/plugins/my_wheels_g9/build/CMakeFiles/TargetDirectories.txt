@@ -1,3 +1,0 @@
-/home/fernando/Downloads/GAZEBO-11/proyecto_gazebo/my_wheels_g9/build/CMakeFiles/rebuild_cache.dir
-/home/fernando/Downloads/GAZEBO-11/proyecto_gazebo/my_wheels_g9/build/CMakeFiles/edit_cache.dir
-/home/fernando/Downloads/GAZEBO-11/proyecto_gazebo/my_wheels_g9/build/CMakeFiles/my_wheels.dir

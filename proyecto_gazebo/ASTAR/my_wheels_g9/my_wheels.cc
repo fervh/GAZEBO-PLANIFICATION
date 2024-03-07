@@ -2,9 +2,9 @@
 Autor: Fernando Vela Hidalgo (https://github.com/fervh)
 Asignatura: Simuladores de Robots
 Universidad: Universidad Carlos III de Madrid (UC3M)
-Fecha: Febrero 2024
+Fecha: Marzo 2024
 
-Algoritmo A* para el robot e-puck en GAZEBO. El robot se mueve a la meta con una ruta óptima.
+Algoritmo A* para el robot en GAZEBO. El robot se mueve a la meta con una ruta óptima.
 
 PROS:
 - Garantiza la optimización de la ruta.
@@ -436,8 +436,6 @@ namespace gazebo
 
             // Obtiene la pose del modelo
             ignition::math::Pose3d pose = model->WorldPose();
-
-            // Usa el camino para mover el robot a lo largo del camino hacia la meta usando solo la posición y la rotación (yaw)
 
             // Usa el camino para mover el robot a lo largo del camino hacia la meta usando solo la posición y la rotación (yaw)
             MoveRobotAlongPath(pose);
